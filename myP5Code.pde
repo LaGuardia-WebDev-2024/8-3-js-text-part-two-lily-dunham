@@ -6,6 +6,8 @@ void setup(){
 //🟢Draw Function - Runs on Repeat
 draw = function(){  
   background(255, 255, 255);
-  fill(255, 0, 255);
-  ellipse(36, 45, 12, 12); 
+  fill(mouseX, mouseY, 255);
+  ellipse(mouseX, mouseY, 30, 30); 
+
+ 
 };
